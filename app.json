@@ -1,0 +1,39 @@
+{
+  "name": "Ezhil Chit",
+  "description": "Chit Fund App",
+  "keywords": [
+    "Node.JS",
+    "JavaScript",
+    "ES6",
+    "Sass",
+    "Browersify",
+    "React JS"
+  ],
+  "website": "https://buit-eucan-olum-selfdetail-dev.herokuapp.com/",
+  "repository": "https://github.com/mdineshari/ezhilchit",
+  "success_url": "/",
+  "environments": {
+   "test": {
+    "scripts": {
+      "test": "npm test"
+     },
+     "env": {},
+      "formation": {
+       "web": {
+        "quantity": 1,
+        "size": "Standard-1X"
+       }
+      },
+      "buildpacks": [
+       {
+        "url": "heroku/nodejs"
+       },
+       {
+        "url": "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/jvm-common.tgz"
+       }
+      ],
+      "addons": []
+     }
+    }
+
+}
