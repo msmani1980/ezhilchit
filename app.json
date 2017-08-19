@@ -1,0 +1,30 @@
+{
+  "name": "ezhilchit",
+  "description": "Chit Funds",
+  "scripts": {
+  },
+  "env": {
+    "SQL_DATABASE": {
+      "required": true
+    },
+    "SQL_HOST": {
+      "required": true
+    },
+    "SQL_PASSWORD": {
+      "required": true
+    },
+    "SQL_USER": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
